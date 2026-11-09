@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+.container-fluid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produto{
+    min-width: 25%;
+}
+
+.carousel-inner{
+    max-height: 600 px;
+}
+
+.img-car{
+    width: 100%;
+    max-height: 1000px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    padding: 50px 20%;
+}
+
+footer ul{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
