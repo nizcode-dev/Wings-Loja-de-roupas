@@ -54,18 +54,19 @@ main {
 .nav-links{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 60%;
 }
 
 .nav-links a{
     color: #000000;
     text-decoration: none;
+    padding: 3px;
 }
 
 .nav-links a:hover{
-    text-decoration: underline;
     font-weight: bold;
+    transition: 0.1s;
 }
 
 section{
@@ -89,6 +90,38 @@ section{
     transition: 0.4s;
 }
 
+.desc{
+    width: fit-content;
+    padding: 0px 7px;
+    background-color: rgb(253, 216, 216);
+    color: rgb(151, 0, 0);
+    font-size: 12px;
+}
+
+.card-title {
+    font-weight: normal;
+}
+
+.p1{
+    text-decoration: line-through;
+    font-size: 17px;
+    padding-left: 2px;
+    color: #525252;
+}
+
+.p2{
+    font-size: 30px;
+}
+
+.btn-primary{
+    border-radius: 0;
+    background-color: #000000;
+    border: #000000;
+}
+
+.card-text{
+    height: 48px;
+}
 
 .carousel{
     width: 95%;
